@@ -1,0 +1,22 @@
+1. Mencari narasumber yang bisa di wawancarai mengenai Tugas Besar
+2. Mencari tahu perangkat jaringan yang terdapat di PT. INTI
+
+--------------------------
+1. Pemberian IP Address(Medium)
+--------------------------
+2. Routing Static(Medium)
+--------------------------
+3. Inter VLan (Hard)
+4. VLan
+--------------------------
+5. Konfigurasi DHCP Server di router(Medium)
+--------------------------
+6. Konfigurasi layanan server(Medium)
+--------------------------
+7. Konfigurasi Access List pada Router(Medium)
+--------------------------
+8. Konfigurasi Frame Relay pada Cloud(Medium-Hard)
+9. Konfigurasi Jaringan Kantor Cabang
+10. Konfigurasi Routing jaringan kantor Cabang
+--------------------------
+11. Konfigurasi Laptop terhubung dengan access point(Easy)
