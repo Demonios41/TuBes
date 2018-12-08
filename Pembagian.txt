@@ -20,3 +20,4 @@
 10. Konfigurasi Routing jaringan kantor Cabang
 --------------------------
 11. Konfigurasi Laptop terhubung dengan access point(Easy)
+--------------------------
