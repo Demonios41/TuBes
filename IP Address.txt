@@ -1,0 +1,184 @@
+A. Gedung Utama
+1. Lantai 1
+enable
+configure terminal
+interface FastEthernet4/0
+ip address 10.20.11.1 255.255.255.128
+no shutdown
+ex
+interface FastEthernet5/0
+ip address 10.20.11.129 255.255.255.128
+ip address 10.20.11.129 255.255.255.128
+no shutdown
+
+2. Lantai 2
+enable
+configure terminal
+interface FastEthernet4/0
+ip address 10.20.12.1 255.255.255.128
+no shutdown
+interface FastEthernet5/0
+ip address 10.20.12.129 255.255.255.128
+no shutdown
+
+3. Lantai 3
+enable
+configure terminal
+interface FastEthernet4/0
+ip address 10.20.13.1 255.255.255.128
+no shutdown
+interface FastEthernet5/0
+ip address 10.20.13.129 255.255.255.128
+no shutdown
+
+4. Lantai 4 
+enable
+configure terminal
+interface FastEthernet4/0
+ip address 11.20.14.1 255.255.255.128
+no shutdown
+interface FastEthernet5/0
+ip address 11.20.14.129 255.255.255.128
+no shutdown
+
+5. Lantai 5
+enable
+configure terminal
+interface FastEthernet4/0
+ip address 10.20.15.1 255.255.255.128
+no shutdown
+interface FastEthernet5/0
+ip address 10.20.15.129 255.255.255.128
+no shutdown
+ex
+
+6.Lantai 6
+configure terminal
+interface FastEthernet4/0
+ip address 10.20.16.1 255.255.255.128
+no shutdown
+interface FastEthernet5/0
+ip address 10.20.16.129 255.255.255.128
+no shutdown
+ex
+
+7. Lantai 7
+enable
+configure terminal
+interface FastEthernet4/0
+ip address 10.20.17.1 255.255.255.128
+no shutdown
+ex
+interface FastEthernet5/0
+ip address 10.20.17.129 255.255.255.128
+no shutdown
+ex
+
+8. Lantai 8
+enable
+configure terminal
+interface FastEthernet4/0
+ip address 10.20.18.1 255.255.255.128
+no shutdown
+ex
+interface FastEthernet5/0
+ip address 10.20.18.129 255.255.255.128
+no shutdown
+ex
+
+9. Lantai 9
+enable
+configure terminal
+interface FastEthernet4/0
+ip address 10.20.19.1 255.255.255.128
+no shutdown
+ex
+interface FastEthernet5/0
+ip address 10.20.19.129 255.255.255.128
+no shutdown
+exit
+
+10. Lantai 10
+enable
+configure terminal
+interface FastEthernet4/0
+ip address 10.20.20.1 255.255.255.128
+no shutdown
+exit
+interface FastEthernet5/0
+ip address 10.20.20.129 255.255.255.128
+no shutdown
+exit
+
+
+B. Gedung Pusat Teknologi
+1. Lantai 1
+enable
+configure terminal
+interface FastEthernet4/0
+ip address 10.20.21.1 255.0.0.0
+ip address 10.20.21.1 255.255.255.128
+no shutdown
+exit
+
+2. Lantai 2
+enable
+configure terminal
+interface FastEthernet4/0
+ip address 10.20.22.1 255.255.255.128
+no shutdown
+ex
+interface FastEthernet5/0
+ip address  
+ip address 10.20.22.129 255.255.255.128
+no shutdown
+ex
+
+3. Lantai 3
+enable
+configure terminal
+interface FastEthernet4/0
+ip address 10.20.23.1 255.255.255.128
+no shutdown
+ex
+interface FastEthernet5/0
+ip address 10.20.23.129 255.255.255.128
+no shutdown
+ex
+
+4. Lantai 4
+enable
+configure terminal
+interface FastEthernet4/0
+ip address 10.20.24.1 255.0.0.0
+ip address 10.20.24.1 255.255.255.128
+no shutdown
+ex
+interface FastEthernet5/0
+ip address 10.20.24.129 255.255.255.128
+no shutdown
+ex
+
+5. Lantai 5
+enable
+configure terminal
+interface FastEthernet4/0
+ip address 10.20.25.1 255.255.255.128
+no shutdown
+exit
+interface FastEthernet5/0
+ip address 10.20.25.129 255.255.255.128
+no shutdown
+exit
+
+6. Lantai 6
+enable
+configure terminal
+interface FastEthernet4/0
+ip address 10.20.26.1 255.255.255.128
+no shutdown
+exit
+interface FastEthernet5/0
+ip address 10.20.26.129 255.255.255.128
+no shutdown
+exit
