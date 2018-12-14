@@ -1,8 +1,8 @@
-1. Mencari narasumber yang bisa di wawancarai mengenai Tugas Besar
-2. Mencari tahu perangkat jaringan yang terdapat di PT. INTI
+1. Mencari narasumber yang bisa di wawancarai mengenai Tugas Besar <Done>
+2. Mencari tahu perangkat jaringan yang terdapat di PT. INTI <Done>
 
 --------------------------
-1. Pemberian IP Address(Medium)
+1. Pemberian IP Address(Medium) <Done by Ammar>
 --------------------------
 2. Routing Static(Medium)
 --------------------------
@@ -19,5 +19,5 @@
 9. Konfigurasi Jaringan Kantor Cabang
 10. Konfigurasi Routing jaringan kantor Cabang
 --------------------------
-11. Konfigurasi Laptop terhubung dengan access point(Easy)
+11. Konfigurasi Laptop terhubung dengan access point(Easy) <Done by Teguh>
 --------------------------
