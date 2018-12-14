@@ -1,0 +1,112 @@
+//10.30.2.1x
+
+A. Gedung Utama
+1. Lantai 1 (Done)
+ip dhcp pool dhcp_lantai1_utara
+network 10.20.11.0 255.255.255.128
+default 10.20.11.1
+ip dhcp exclude 10.20.11.1 10.20.11.2
+ip dhcp pool dhcp_lantai1_selatan
+network 10.20.11.128 255.255.255.128
+default 10.20.11.129
+ip dhcp exclude 10.20.11.129 10.20.11.130
+ex
+
+2. Lantai 2 (Done)
+ip dhcp pool dhcp_lantai2_utara
+network 10.20.12.0 255.255.255.128
+default 10.20.12.1
+ip dhcp exclude 10.20.12.1 10.20.12.2
+ip dhcp pool dhcp_lantai2_selatan
+network 10.20.12.128 255.255.255.128
+default 10.20.12.129
+ip dhcp exclude 10.20.12.129 10.20.12.130
+ex
+
+3. Lantai 3 (Done)
+ip dhcp pool dhcp_lantai3_utara
+network 10.20.13.0 255.255.255.128
+default 10.20.13.1
+ip dhcp exclude 10.20.13.1 10.20.13.2
+ip dhcp pool dhcp_lantai3_selatan
+network 10.20.13.128 255.255.255.128
+default 10.20.13.129
+ip dhcp exclude 10.20.13.129 10.20.13.130
+ex
+
+4. Lantai 4 (Done) 
+ip dhcp pool dhcp_lantai4_utara
+network 10.20.14.0 255.255.255.128
+default 10.20.14.1
+ip dhcp exclude 10.20.14.1 10.20.14.2
+ip dhcp pool dhcp_lantai4_selatan
+network 10.20.14.128 255.255.255.128
+default 10.20.14.129
+ip dhcp exclude 10.20.14.129 10.20.14.130
+ex
+
+5. Lantai 5 (Done)
+ip dhcp pool dhcp_lantai5_utara
+network 10.20.15.0 255.255.255.128
+default 10.20.15.1
+ip dhcp exclude 10.20.15.1 10.20.15.2
+ip dhcp pool dhcp_lantai5_selatan
+network 10.20.15.128 255.255.255.128
+default 10.20.15.129
+ip dhcp exclude 10.20.15.129 10.20.15.130
+ex
+
+6. Lantai 6 (Done)
+ip dhcp pool dhcp_lantai6_utara
+network 10.20.16.0 255.255.255.128
+default 10.20.16.1
+ip dhcp exclude 10.20.16.1 10.20.16.2
+ip dhcp pool dhcp_lantai6_selatan
+network 10.20.16.128 255.255.255.128
+default 10.20.16.129
+ip dhcp exclude 10.20.16.129 10.20.16.130
+ex
+
+7. Lantai 7 (Done)
+ip dhcp pool dhcp_lantai7_utara
+network 10.20.17.0 255.255.255.128
+default 10.20.17.1
+ip dhcp exclude 10.20.17.1 10.20.17.2
+ip dhcp pool dhcp_lantai7_selatan
+network 10.20.17.128 255.255.255.128
+default 10.20.17.129
+ip dhcp exclude 10.20.17.129 10.20.17.130
+ex
+
+8. Lantai 8 (Done)
+ip dhcp pool dhcp_lantai8_utara
+network 10.20.18.0 255.255.255.128
+default 10.20.18.1
+ip dhcp exclude 10.20.18.1 10.20.18.2
+ip dhcp pool dhcp_lantai8_selatan
+network 10.20.18.128 255.255.255.128
+default 10.20.18.129
+ip dhcp exclude 10.20.18.129 10.20.18.130
+ex
+
+9. Lantai 9 (Done)
+ip dhcp pool dhcp_lantai9_utara
+network 10.20.19.0 255.255.255.128
+default 10.20.19.1
+ip dhcp exclude 10.20.19.1 10.20.19.2
+ip dhcp pool dhcp_lantai9_selatan
+network 10.20.19.128 255.255.255.128
+default 10.20.19.129
+ip dhcp exclude 10.20.19.129 10.20.19.130
+ex
+
+10. Lantai 10
+ip dhcp pool dhcp_lantai10_utara
+network 10.20.20.0 255.255.255.128
+default 10.20.20.1
+ip dhcp exclude 10.20.20.1 10.20.20.2
+ip dhcp pool dhcp_lantai10_selatan
+network 10.20.20.128 255.255.255.128
+default 10.20.20.129
+ip dhcp exclude 10.20.20.129 10.20.20.130
+ex
