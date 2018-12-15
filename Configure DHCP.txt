@@ -110,3 +110,46 @@ network 10.20.20.128 255.255.255.128
 default 10.20.20.129
 ip dhcp exclude 10.20.20.129 10.20.20.130
 ex
+
+B. Gedung Pusat Teknologi
+1. Lantai 1 (Done)
+ip dhcp pool dhcp_lantai1
+network 10.30.2.128 255.255.255.128
+default 10.30.2.129
+ip dhcp exclude 10.30.2.128 10.20.11.130
+ex
+
+2. Lantai 2 (Done)
+ip dhcp pool dhcp_lantai2
+network 10.30.2.128 255.255.255.128
+default 10.30.2.129
+ip dhcp exclude 10.30.2.128 10.20.11.131
+ex
+
+3. Lantai 3 (Done)
+ip dhcp pool dhcp_lantai3
+network 10.30.2.128 255.255.255.128
+default 10.30.2.129
+ip dhcp exclude 10.30.2.128 10.20.11.132
+ex
+
+4. Lantai 4 (Done)
+ip dhcp pool dhcp_lantai4
+network 10.30.2.128 255.255.255.128
+default 10.30.2.129
+ip dhcp exclude 10.30.2.128 10.20.11.133
+ex
+
+5. Lantai 5 (Done)
+ip dhcp pool dhcp_lantai5
+network 10.30.2.128 255.255.255.128
+default 10.30.2.129
+ip dhcp exclude 10.30.2.128 10.20.11.134
+ex
+
+6. Lantai 6 
+ip dhcp pool dhcp_lantai6
+network 10.30.2.128 255.255.255.128
+default 10.30.2.129
+ip dhcp exclude 10.30.2.128 10.20.11.135
+ex
