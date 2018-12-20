@@ -1,0 +1,59 @@
+//Utara
+en
+conf t
+ip access-list standard acl_vlan10
+deny 10.20.11.129 0.0.0.127
+deny 10.20.13.129 0.0.0.127
+deny 10.20.15.129 0.0.0.127
+deny 10.20.16.129 0.0.0.127
+deny 10.20.17.1 0.0.0.127
+deny 10.20.24.1 0.0.0.127
+deny 10.20.25.1 0.0.0.127
+deny 10.20.18.1 0.0.0.127
+deny 10.20.13.1 0.0.0.127
+deny 10.20.14.1 0.0.0.127
+deny 10.20.15.1 0.0.0.127
+deny 10.20.23.1 0.0.0.127
+deny 10.20.12.1 0.0.0.127
+deny 10.20.12.129 0.0.0.127
+deny 10.20.22.1 0.0.0.127
+deny 10.20.26.1 0.0.0.127
+deny 10.20.20.1 0.0.0.127
+deny 10.20.20.129 0.0.0.127
+permit any
+ex
+int fa4/0.10
+ip access-group acl_vlan10 in
+ip access-group acl_vlan10 out
+ex
+ex
+
+//Selatan
+en
+conf t
+ip access-list standard acl_vlan10
+deny 10.20.11.129 0.0.0.127
+deny 10.20.13.129 0.0.0.127
+deny 10.20.15.129 0.0.0.127
+deny 10.20.16.129 0.0.0.127
+deny 10.20.17.1 0.0.0.127
+deny 10.20.24.1 0.0.0.127
+deny 10.20.25.1 0.0.0.127
+deny 10.20.18.1 0.0.0.127
+deny 10.20.13.1 0.0.0.127
+deny 10.20.14.1 0.0.0.127
+deny 10.20.15.1 0.0.0.127
+deny 10.20.23.1 0.0.0.127
+deny 10.20.12.1 0.0.0.127
+deny 10.20.12.129 0.0.0.127
+deny 10.20.22.1 0.0.0.127
+deny 10.20.26.1 0.0.0.127
+deny 10.20.20.1 0.0.0.127
+deny 10.20.20.129 0.0.0.127
+permit any
+ex
+int fa5/0.10
+ip access-group acl_vlan10 in
+ip access-group acl_vlan10 out
+ex
+ex

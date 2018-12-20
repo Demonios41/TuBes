@@ -35,10 +35,10 @@ no shutdown
 enable
 configure terminal
 interface FastEthernet4/0
-ip address 11.20.14.1 255.255.255.128
+ip address 10.20.14.1 255.255.255.128
 no shutdown
 interface FastEthernet5/0
-ip address 11.20.14.129 255.255.255.128
+ip address 10.20.14.129 255.255.255.128
 no shutdown
 
 5. Lantai 5
