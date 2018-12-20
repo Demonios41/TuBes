@@ -5,7 +5,7 @@ enable
 configure terminal
 vlan 10
 name indosat
-interface range fa0/1-6
+interface range fa0/1-23
 switchport mode access
 switchport access vlan 10
 interface fa0/24
@@ -15,19 +15,12 @@ end
 copy running-config startup-config
 
 
-enable
-configure terminal
-interface range fa0/1-23
-NO switchport access vlan 10
-END
-EX
-
 VLAN 20
 enable
 configure terminal
 vlan 20
 name biznet
-interface range fa0/7-12
+interface range fa0/1-23
 switchport mode access
 switchport access vlan 20
 interface fa0/24
@@ -37,19 +30,12 @@ end
 copy running-config startup-config
 
 
-enable
-configure terminal
-interface range fa0/1-23
-NO switchport access vlan 20
-END
-EX
-
 VLAN 30
 enable
 configure terminal
 vlan 30
 name jalawave
-interface range fa0/13-17
+interface range fa0/1-23
 switchport mode access
 switchport access vlan 30
 interface fa0/24
@@ -59,19 +45,12 @@ end
 copy running-config startup-config
 
 
-enable
-configure terminal
-interface range fa0/1-23
-NO switchport access vlan 30
-END
-EX
-
 VLAN 40
 enable
 configure terminal
 vlan 40
 name local
-interface range fa0/18-22
+interface range fa0/1-23
 switchport mode access
 switchport access vlan 40
 interface fa0/24
@@ -80,9 +59,3 @@ switchport trunk allowed vlan all
 end
 copy running-config startup-config
 
-enable
-configure terminal
-interface range fa0/1-23
-NO switchport access vlan 40
-END
-EX
