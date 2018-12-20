@@ -1,5 +1,6 @@
 Vlan
 
+VLAN 10
 enable
 configure terminal
 vlan 10
