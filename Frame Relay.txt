@@ -1,0 +1,16 @@
+ISP Router
+enable
+configure terminal
+interface se6/0
+encapsulation frame-relay
+frame-relay map ip 10.29.5.1 401 broadcast
+do write
+
+
+Router Kantor Cabang
+enable
+configure terminal
+interface se2/0
+encapsulation frame-relay
+frame-relay map ip 10.29.5.2 104 broadcast
+do write

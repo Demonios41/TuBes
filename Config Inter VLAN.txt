@@ -1,0 +1,215 @@
+Router L1 GP
+enable
+configure terminal
+interface fa4/0.10
+encapsulation dot1Q 10
+ip address 10.20.11.1 255.255.255.128
+no shutdown
+interface fa5/0.20
+encapsulation dot1Q 20
+ip address 10.20.11.129 255.255.255.128
+no shutdown
+end
+copy running-config startup-config
+
+
+Router L2 GP
+enable
+configure terminal
+interface fa4/0.40
+encapsulation dot1Q 40
+ip address 10.20.12.1 255.255.255.128
+no shutdown
+interface fa5/0.40
+encapsulation dot1Q 40
+ip address 10.20.12.129 255.255.255.128
+no shutdown
+end
+copy running-config startup-config
+
+
+Router L3 GP
+enable
+configure terminal
+interface fa4/0.30
+encapsulation dot1Q 30
+ip address 10.20.13.1 255.255.255.128
+no shutdown
+interface fa5/0.20
+encapsulation dot1Q 20
+ip address 10.20.13.130 255.255.255.128
+no shutdown
+end
+copy running-config startup-config
+
+
+Router L4 GP
+enable
+configure terminal
+interface fa4/0.30
+encapsulation dot1Q 30
+ip address 10.20.14.1 255.255.255.128
+no shutdown
+interface fa5/0.10
+encapsulation dot1Q 10
+ip address 10.20.14.129 255.255.255.128
+no shutdown
+end
+copy running-config startup-config
+
+
+Router L5 GP
+enable
+configure terminal
+interface fa4/0.30
+encapsulation dot1Q 30
+ip address 10.20.15.1 255.255.255.128
+no shutdown
+interface fa5/0.20
+encapsulation dot1Q 20
+ip address 10.20.15.129 255.255.255.128
+no shutdown
+end
+copy running-config startup-config
+
+
+Router L6 GP
+enable
+configure terminal
+interface fa4/0.30
+encapsulation dot1Q 30
+ip address 10.20.16.1 255.255.255.128
+no shutdown
+interface fa5/0.20
+encapsulation dot1Q 20
+ip address 10.20.16.129 255.255.255.128
+no shutdown
+end
+copy running-config startup-config
+
+
+Router L7 GP
+enable
+configure terminal
+interface fa4/0.20
+encapsulation dot1Q 20
+ip address 10.20.17.1 255.255.255.128
+no shutdown
+interface fa5/0.10
+encapsulation dot1Q 10
+ip address 10.20.17.129 255.255.255.128
+no shutdown
+end
+copy running-config startup-config
+
+
+Router L8 GP
+enable
+configure terminal
+interface fa4/0.20
+encapsulation dot1Q 20
+ip address 10.20.18.1 255.255.255.128
+no shutdown
+interface fa5/0.10
+encapsulation dot1Q 10
+ip address 10.20.18.129 255.255.255.128
+no shutdown
+end
+copy running-config startup-config
+
+
+Router L9 GP
+enable
+configure terminal
+interface fa4/0.20
+encapsulation dot1Q 20
+ip address 10.20.19.1 255.255.255.128
+no shutdown
+interface fa5/0.10
+encapsulation dot1Q 10
+ip address 10.20.19.129 255.255.255.128
+no shutdown
+end
+copy running-config startup-config
+
+
+Router L10 GP
+enable
+configure terminal
+interface fa4/0.40
+encapsulation dot1Q 40
+ip address 10.20.20.1 255.255.255.128
+no shutdown
+interface fa5/0.40
+encapsulation dot1Q 40
+ip address 10.20.20.129 255.255.255.128
+no shutdown
+end
+copy running-config startup-config
+
+
+Router L1 GPT
+enable
+configure terminal
+interface fa4/0.10
+encapsulation dot1Q 10
+ip address 10.20.21.1 255.255.255.128
+no shutdown
+end
+copy running-config startup-config
+
+
+Router L2 GPT
+enable
+configure terminal
+interface fa4/0.40
+encapsulation dot1Q 40
+ip address 10.20.22.1 255.255.255.128
+no shutdown
+end
+copy running-config startup-config
+
+
+Router L3 GPT
+enable
+configure terminal
+interface fa4/0.30
+encapsulation dot1Q 30
+ip address 10.20.23.1 255.255.255.128
+no shutdown
+end
+copy running-config startup-config
+
+
+Router L4 GPT
+enable
+configure terminal
+interface fa4/0.20
+encapsulation dot1Q 20
+ip address 10.20.24.1 255.255.255.128
+no shutdown
+end
+copy running-config startup-config
+
+
+Router L5 GPT
+enable
+configure terminal
+interface fa4/0.20
+encapsulation dot1Q 20
+ip address 10.20.25.1 255.255.255.128
+no shutdown
+end
+copy running-config startup-config
+
+
+Router L6 GPT
+enable
+configure terminal
+interface fa4/0.40
+encapsulation dot1Q 40
+ip address 10.20.26.1 255.255.255.128
+no shutdown
+end
+copy running-config startup-config
+

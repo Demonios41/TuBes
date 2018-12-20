@@ -4,20 +4,20 @@
 --------------------------
 1. Pemberian IP Address(Medium) <Done by Ammar>
 --------------------------
-2. Routing Static(Medium)
+2. Routing Static(Medium)	<Done by Silvi>
 --------------------------
-3. Inter VLan (Hard)
+3. Inter VLan (Very Hard)	<Lier, Udah cuman ngirim pdu ke vlan yang beda masih success terus.... wkwk..hah.......>
 4. VLan
 --------------------------
-5. Konfigurasi DHCP Server di router(Medium)
+5. Konfigurasi DHCP Server di router(Medium) <Done by Ammar>
 --------------------------
-6. Konfigurasi layanan server(Medium)
+6. Konfigurasi layanan server(Medium) <HTTP & DNS Service by Ammar>
 --------------------------
-7. Konfigurasi Access List pada Router(Medium)
+7. Konfigurasi Access List pada Router(Medium)	<Done by Teguh>
 --------------------------
-8. Konfigurasi Frame Relay pada Cloud(Medium-Hard)
-9. Konfigurasi Jaringan Kantor Cabang
-10. Konfigurasi Routing jaringan kantor Cabang
+8. Konfigurasi Frame Relay pada Cloud(Medium-Hard)	V
+9. Konfigurasi Jaringan Kantor Cabang			V
+10. Konfigurasi Routing jaringan kantor Cabang		X
 --------------------------
 11. Konfigurasi Laptop terhubung dengan access point(Easy) <Done by Teguh>
 --------------------------
